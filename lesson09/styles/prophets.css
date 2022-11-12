@@ -68,11 +68,12 @@ section > p {
 }
 
 img {
-  width: auto;
+  width: 162px;
 	max-width: 325px;
   box-shadow: 0 0 30px #777;
   height: 200px;
   border: 1px solid #333;
+  object-fit: cover;
 }
 
 li > img {
