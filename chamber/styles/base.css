@@ -7,7 +7,7 @@
 
 body {
 	font-size: 16px;
-	font-family: "Sansita", Ubuntu, sans-serif;
+    font-family: 'Quicksand', Helvetica, sans-serif;
 }
 
 /* phone or baseline views **************************/
@@ -25,7 +25,7 @@ footer {
 header,
 main,
 footer {
-	max-width: 767px;
+	max-width: 100%;
 	margin: 0 auto;
 }
 
@@ -36,6 +36,13 @@ h2 {
 	color: #536878;
 }
 
+nav button {
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: white;
+}
 nav {
 	background-color: #36454f;
 	margin: 0 auto;
@@ -43,10 +50,25 @@ nav {
 	box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
 }
 nav ul {
-	list-style-type: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 	overflow: hidden;
 }
+
 nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+	color: #fff;
+    border-top: 1px solid rgba(0,0,0,0.5);
+	font-size: 0.95rem;
+	background: linear-gradient(90deg, transparent, yellow, transparent) bottom /
+	var(--d, 0) 3px no-repeat;
+transition: 0.5s;
+}
+
+/* nav ul li a {
 	display: block;
 	color: #fff;
 	text-align: center;
@@ -56,7 +78,27 @@ nav ul li a {
 	background: linear-gradient(90deg, transparent, yellow, transparent) bottom /
 		var(--d, 0) 3px no-repeat;
 	transition: 0.5s;
+} */
+
+
+nav ul li.active a {
+    background-color: rgba(0,0,0,0.2);
+    color: #fff;
 }
+
+nav ul li a:hover {
+    background-color: rgba(0,0,0,0.3);
+}
+
+nav ul {display: none;}
+nav ul.open {display: block;}
+
+#hamburgerBtn span:nth-child(1) {display: block;}
+#hamburgerBtn span:nth-child(2) {display: none;}
+
+#hamburgerBtn.open span:nth-child(1) {display: none;}
+#hamburgerBtn.open span:nth-child(2) {display: block;}
+
 
 .active {
 	color: yellow;
@@ -106,6 +148,19 @@ footer p {
 		grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
 	} 
 
+	nav button {display: none;}
+
+	nav ul#primaryNav {
+		display: flex;
+		margin-left: 2wv;
+		border-left: 1px solid rgba(0,0,0,0.3);
+	}
+	
+	nav ul li a {
+		border: none;
+		border-right: 1px solid rgba(0,0,0,0.3);
+	}
+	
 	nav a {
 		font-size: 1rem;
 	}
@@ -115,7 +170,7 @@ footer p {
 	color: #36454f; */
 		--d: 75%;
 	}
-
+	
 	main {
 		grid-template-columns: 1fr 1fr;
 	}
@@ -149,6 +204,12 @@ footer p {
 	nav a {
 		font-size: 1.1rem;
 	}
+
+	nav ul li a {
+		padding: .5rem 1rem;
+	}
+	
+
 	main {
 		grid-template-columns: 1fr 1fr 1fr;
 	}

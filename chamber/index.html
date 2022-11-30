@@ -4,10 +4,15 @@
   <title>Bothell Chamber of Commerce</title>
   <meta http-equiv=Content-Type content="text/html; charset=utf-8">
   <meta name="author" content="Lee Williamson" />
-<meta
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta
   name="description"
   content="This page is an unofficial Chamber of Commerce page for the city of Bothell, Washington, U.S.A." />
+  <link rel="stylesheet" href="styles/normalize.css">
   <link rel="stylesheet" href="styles/base.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">  
 </head>
 
 <body lang=EN-US link="#0563C1" vlink="#954F72">
@@ -15,60 +20,56 @@
   <p class=MsoNormal>&nbsp;</p>
   
   <header>
-	<h1>Bothell Chamber of Commerce</h1>
+	<h1><a href="index.html"><img src="images/city_of_bothell_logo_small.webp" alt="Site logo of Bothell Bridge"></a>Bothell Chamber of Commerce</h1>
 </header>
 <nav>
-	<ul>
-		<li><a href="#" class="active">Home</a></li>
-		<li><a href="#">Discover</a></li>
-		<li><a href="#">Directory</a></li>
-		<li><a href="#">Join</a></li>
-		<li><a href="#">Contact</a></li>
+	<button id="hamburgerBtn"><span>&#9776;</span><span>&nbsp;x</span></button>
+	<ul id="primaryNav">
+		<li><a href="index.html" class="active">Home</a></li>
+		<li><a href="discover.html">Discover</a></li>
+		<li><a href="directory.html">Directory</a></li>
+		<li><a href="join.html">Join</a></li>
+		<li><a href="contact.html">Contact</a></li>
 	</ul>
 </nav>
 <main>
-	<article>
-		<h2>Assignment Demos</h2>
-		<ul>
-			<li><a href="#">The Tired Iguana</a></li>
-			<li><a href="#">Lewiston Capital</a></li>
-			<li><a href="#">Ground Flight</a></li>
-			<li><a href="#">Flex Not</a></li>
-		</ul>
-	</article>
 	<picture>
-		<img src="https://picsum.photos/400" alt="A placeholder image">
+		<img src="images/construction.webp" alt="Photo of Bothell Bridge">
+	</picture>
+	<picture>
+		<source srcset="images/bothell_bridge-400.webp" media="(min-width: 500px) and (max-width: 799px)">
+		<source srcset="images/bothell_bridge-600.webp" media="(min-width: 800px)">
+		<img src="images/bothell_bridge-250.webp" alt="Photo of Bothell Bridge">
 	</picture>
 	<article>
-		<h2>Description</h2>
-		<p>This pen demostrates flex in the header and footer with middle alignment; grid in the main, some common properties and then three different techniques for the nav starting with flex. Inline-blocks and floats are commented out - to be swithed for comparison.
+		<h2>Descriptio</h2>
+		<p>Ipsum Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic aut voluptatem provident! Voluptate sequi minima sapiente corrupti dolorum est temporibus, nostrum voluptatem reprehenderit possimus tenetur unde ex aliquid odio porro.		
+		</p>
+		<p>Ipsum Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic aut voluptatem provident! Voluptate sequi minima sapiente corrupti dolorum est temporibus, nostrum voluptatem reprehenderit possimus tenetur unde ex aliquid odio porro.		
 		</p>
 	</article>
 	<article>
-		<h2>Assignment Demos</h2>
-		<ul>
-			<li><a href="#">The Tired Iguana</a></li>
-			<li><a href="#">Lewiston Capital</a></li>
-			<li><a href="#">Ground Flight</a></li>
-			<li><a href="#">Flex Not</a></li>
-		</ul>
+		<h2>Descriptio</h2>
+		<p>Ipsum Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic aut voluptatem provident! Voluptate sequi minima sapiente corrupti dolorum est temporibus, nostrum voluptatem reprehenderit possimus tenetur unde ex aliquid odio porro.		
+		</p>
+		<p>Ipsum Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic aut voluptatem provident! Voluptate sequi minima sapiente corrupti dolorum est temporibus, nostrum voluptatem reprehenderit possimus tenetur unde ex aliquid odio porro.		
+		</p>
 	</article>
-	<picture>
-		<img src="https://picsum.photos/400" alt="A placeholder image">
-	</picture>
 	<article>
-		<h2>Description</h2>
-		<p>This pen demostrates flex in the header and footer with middle alignment; grid in the main, some common properties and then three different techniques for the nav starting with flex. Inline-blocks and floats are commented out - to be swithed for comparison.
+		<h2>Descriptio</h2>
+		<p>Ipsum Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic aut voluptatem provident! Voluptate sequi minima sapiente corrupti dolorum est temporibus, nostrum voluptatem reprehenderit possimus tenetur unde ex aliquid odio porro.		
+		</p>
+		<p>Ipsum Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic aut voluptatem provident! Voluptate sequi minima sapiente corrupti dolorum est temporibus, nostrum voluptatem reprehenderit possimus tenetur unde ex aliquid odio porro.		
+		</p>
+	</article>
+	<article>
+		<h2>Descriptio</h2>
+		<p>Ipsum Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic aut voluptatem provident! Voluptate sequi minima sapiente corrupti dolorum est temporibus, nostrum voluptatem reprehenderit possimus tenetur unde ex aliquid odio porro.		
+		</p>
+		<p>Ipsum Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic aut voluptatem provident! Voluptate sequi minima sapiente corrupti dolorum est temporibus, nostrum voluptatem reprehenderit possimus tenetur unde ex aliquid odio porro.		
 		</p>
 	</article>
 </main>
-<!-- <footer>
-	<p>
-		<span>Bothell Chamber of Commerce</span>
-		<span>ADDRESS</span>
-		<span>ADDRESS 2</span>
-	</p>
-</footer> -->
 <footer class="box-shadow">
 	<div>
 	  <div>&copy;<span id="year"></span> | Lee Williamson | Washington State U.S.A.</div>
@@ -76,7 +77,7 @@
 	</div>
   </footer>
 
-<script src="scripts/getdate.js"></script>
+<script src="scripts/scripts.js"></script>
 </body>
 
 </html>
