@@ -1,0 +1,125 @@
+{
+  "members": [
+
+    {
+      "logo": "images/city_of_bothell_logo_small.webp",
+      "business_name": "ABC Company 01",
+      "address": "1234 Bothell Way NE",
+      "city": "Bothell",
+      "state": "WA",
+      "zip_code": "98011",
+      "contact_name": "Jacob Smith",
+      "work_phone": "425-555-1212",
+      "work_email": "info@abc-company.com",
+      "website": "abc-company.com"
+    },
+    {
+      "logo": "images/city_of_bothell_logo_small.webp",
+      "business_name": "ABC Company 02",
+      "address": "1234 Bothell Way NE",
+      "city": "Bothell",
+      "state": "WA",
+      "zip_code": "98011",
+      "contact_name": "Jacob Smith",
+      "work_phone": "425-555-1212",
+      "work_email": "info@abc-company.com",
+      "website": "abc-company.com"
+    },
+    {
+      "logo": "images/city_of_bothell_logo_small.webp",
+      "business_name": "ABC Company 03",
+      "address": "1234 Bothell Way NE",
+      "city": "Bothell",
+      "state": "WA",
+      "zip_code": "98011",
+      "contact_name": "Jacob Smith",
+      "work_phone": "425-555-1212",
+      "work_email": "info@abc-company.com",
+      "website": "abc-company.com"
+    },
+    {
+      "logo": "images/city_of_bothell_logo_small.webp",
+      "business_name": "ABC Company 04",
+      "address": "1234 Bothell Way NE",
+      "city": "Bothell",
+      "state": "WA",
+      "zip_code": "98011",
+      "contact_name": "Jacob Smith",
+      "work_phone": "425-555-1212",
+      "work_email": "info@abc-company.com",
+      "website": "abc-company.com"
+    },
+    {
+      "logo": "images/city_of_bothell_logo_small.webp",
+      "business_name": "ABC Company 05",
+      "address": "1234 Bothell Way NE",
+      "city": "Bothell",
+      "state": "WA",
+      "zip_code": "98011",
+      "contact_name": "Jacob Smith",
+      "work_phone": "425-555-1212",
+      "work_email": "info@abc-company.com",
+      "website": "abc-company.com"
+    },
+    {
+      "logo": "images/city_of_bothell_logo_small.webp",
+      "business_name": "ABC Company 06",
+      "address": "1234 Bothell Way NE",
+      "city": "Bothell",
+      "state": "WA",
+      "zip_code": "98011",
+      "contact_name": "Jacob Smith",
+      "work_phone": "425-555-1212",
+      "work_email": "info@abc-company.com",
+      "website": "abc-company.com"
+    },
+    {
+      "logo": "images/city_of_bothell_logo_small.webp",
+      "business_name": "ABC Company 07",
+      "address": "1234 Bothell Way NE",
+      "city": "Bothell",
+      "state": "WA",
+      "zip_code": "98011",
+      "contact_name": "Jacob Smith",
+      "work_phone": "425-555-1212",
+      "work_email": "info@abc-company.com",
+      "website": "abc-company.com"
+    },
+    {
+      "logo": "images/city_of_bothell_logo_small.webp",
+      "business_name": "ABC Company 08",
+      "address": "1234 Bothell Way NE",
+      "city": "Bothell",
+      "state": "WA",
+      "zip_code": "98011",
+      "contact_name": "Jacob Smith",
+      "work_phone": "425-555-1212",
+      "work_email": "info@abc-company.com",
+      "website": "abc-company.com"
+    },
+    {
+      "logo": "images/city_of_bothell_logo_small.webp",
+      "business_name": "ABC Company 09",
+      "address": "1234 Bothell Way NE",
+      "city": "Bothell",
+      "state": "WA",
+      "zip_code": "98011",
+      "contact_name": "Jacob Smith",
+      "work_phone": "425-555-1212",
+      "work_email": "info@abc-company.com",
+      "website": "abc-company.com"
+    },
+    {
+      "logo": "images/city_of_bothell_logo_small.webp",
+      "business_name": "ABC Company 10",
+      "address": "1234 Bothell Way NE",
+      "city": "Bothell",
+      "state": "WA",
+      "zip_code": "98011",
+      "contact_name": "Jacob Smith",
+      "work_phone": "425-555-1212",
+      "work_email": "info@abc-company.com",
+      "website": "abc-company.com"
+    }
+  ]
+}
