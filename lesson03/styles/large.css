@@ -1,0 +1,16 @@
+@media only screen and (min-width: 64em) {
+	main {
+		grid-template-columns: 1fr 1fr 1fr;
+		max-width: 1800px;
+		display: grid;
+    font-size: 20px;
+	}
+
+	main section:nth-child(3) {
+		grid-column: span 1;
+	}
+  header {
+    grid-template-rows: 8em;
+  }
+	
+}
