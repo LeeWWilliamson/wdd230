@@ -15,7 +15,13 @@
 	main {
 		grid-template-columns: 1fr 2fr 1fr;
 	}
+	article:nth-child(2) {
+		grid-row: span 2;
+	}
 	article:nth-child(3) {
 		grid-column: span 1;
+		grid-row: span 3;
+
 	}
+}
 }
