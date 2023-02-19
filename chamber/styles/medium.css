@@ -39,7 +39,8 @@
 		--d: 75%;
 	}
 	
-	main {
+	.main-grid {
+		display: grid;
 		grid-template-columns: 1fr 1fr;
 	}
 	article:nth-child(3) {
@@ -63,3 +64,11 @@
 	}
 	
 }
+
+/*.stats {
+	padding: 10px;
+	margin: .5rem;
+	border-radius: 5px;
+	height: fit-content;
+	flex-direction: column;
+}*/

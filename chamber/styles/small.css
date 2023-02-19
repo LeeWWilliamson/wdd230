@@ -104,7 +104,7 @@ nav ul.open {display: block;}
 	color: yellow;
 }
 
-main {
+.main-grid {
 	display: grid;
 	grid-template-columns: 1fr;
 	font-size: 0.8rem;
@@ -132,4 +132,39 @@ footer p {
 
 .yellow {
 	font-size: 12pt; color: yellow;
+}
+
+.pgtitle {
+    padding-left: 20px;
+}
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px;
+	background-color: #aaa;
+    padding: 25px;
+    border-radius: 15px;
+}
+.gallery img[data-src] {
+    filter: blur(0.2em);
+}
+.gallery img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+    border-radius: 5px;
+    transition: transform .4s;
+}
+.gallery img:hover {
+    transform: scale(1.1);
+
+}
+.stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px;
+	background-color: #aaa;
+    padding: 25px;
+    border-radius: 15px;
 }
