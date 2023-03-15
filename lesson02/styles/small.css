@@ -51,4 +51,7 @@ main section img {
         border-radius: 15px;
     }
     
-    
+.yellow {
+  font-size: 12pt; color: yellow;
+}
+
