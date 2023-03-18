@@ -65,7 +65,7 @@ nav ul li a {
 main {
 	display: grid;
 	grid-template-columns: auto;
-	font-size: 0.8rem;
+	font-size: 16px;
 }
 main article {
 	margin: 1rem;
@@ -149,7 +149,13 @@ footer p {
 /* Desktop Views ****************************/
 @media only screen and (min-width: 60em) {
 	h1 {
-		font-size: 2rem;
+		font-size: 32px;
+	}
+	h2 {
+		font-size: 24px;
+	}
+	h3 {
+		font-size: 18px;
 	}
 	nav a {
 		font-size: 1.1rem;
