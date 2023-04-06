@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Lee Williamson" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Lee Williamson WDD 230 Bountiful Foods Site</title>
+    <meta name="description" content="Bountiful Foods specializes in fresh organic produce and 
+    delicious fruit smoothies at our main location in Carlsbad and at various food trucks 
+    between San Diego and Los Angeles.">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="stylesheet" href="styles/normalize.css">  
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+  </head>
+<body>
+
+    <header>
+
+        <div class="header">
+          <img src="images/logo.webp" alt="logo showing a bowl of fruit">
+          <h1>Bountiful Foods </h1>
+          <nav>
+            <div class="hamburger">
+              <div class="menu_icon">
+                <span class="one"></span>
+                <span class="two"></span>
+                <span class="three"></span>
+                </label>
+              </div>
+            </div>
+            <ul id="navigation">
+              <li><a href="index.html" class="active">Home</a></li>
+              <li><a href="fresh.html">Fresh</a></li>
+              <li><a href="aboutus.html">About Us</a></li>
+            </ul>
+          </nav>
+        </div>
+
+    </header>
+
+<main>  
+  <img class="banner" src="images/banner-large2.webp" alt="an arrangements of various fruits">
+  <div id="sbs"> 
+    <div id="form">
+      <form method="get" action="" id="drinkForm">
+        <fieldset>
+          <h2>Create Your Own Specialty Drink!</h2>
+            <label class="top">First Name<input type="text" name="fname" id="firstname" required></label>
+            <label class="top">Email<input type="email" name="email" placeholder="someone@gmail.com" id="email" required></label>
+            <label class="top">Cell Phone<input type="tel" name="phone" placeholder="1235551234" id="phone" required></label>
+          <h3>Select 3 ingredients to create your Specialty Drink:</h3>
+            <label for="fruit1" class="top">Fruit One:</label>
+                <select name="fruits" id="fruit1">
+                  <option value="" selected disabled>Select a fruit</option>
+                </select>
+            <label for="fruit2" class="top">Fruit Two:</label>
+              <select name="fruits" id="fruit2" required>
+                <option value="" selected disabled>Select a fruit</option>
+            </select>
+            <label for="fruit3" class="top">Fruit Three:</label>
+              <select name="fruits" id="fruit3" required>
+                <option value="" selected disabled>Select a fruit</option>
+            </select>
+
+            <textarea name="instructions" rows="10" cols="45" id="instructions" placeholder="Add any special instructions"></textarea>
+            <input type="button" value="Let's Blend My Drink!" id="submitBtn">
+        </fieldset>
+      </form>
+    </div>  
+        <div id="output-card">
+          <p>Speciality drinks you've created so far: <span id="numberDrinks"></span></p>
+        </div>
+        <div class="business-info">
+          <div class="address">
+            <p><strong>Bountiful Foods</strong></p>
+            <p>1975 Chestnut Ave</p>
+            <p>Carlsbad, CA 92008</p>
+            <p>(760) 532-1704</p>
+          </div>
+          <div class="map">
+            <p><a href="https://www.google.com/maps/place/Carlsbad,+CA/@33.1609423,-117.3508392,16z/data=!4m13!1m7!3m6!1s0x80dc73453f3bee59:0xa4cb5592fcf65d2f!2sCarlsbad,+CA!3b1!8m2!3d33.1580933!4d-117.3505939!3m4!1s0x80dc73453f3bee59:0xa4cb5592fcf65d2f!8m2!3d33.1580933!4d-117.3505939" target="_blank">
+              <img src="images/pin.ico" alt="location pin icon">Location Map</a></p>
+          </div>
+          <div class="hours">
+            <p><strong>Storefront Hours</strong></p>
+            <p>Mon-Fri: 7am-7pm</p> 
+            <p>Sat: 7am-4pm</p>
+            <p>Closed Sundays</p>
+          </div>
+        </div>    
+      </div> 
+      </main>
+
+  
+  <footer>
+    <div class="socials">
+      <p><em>For food truck locations and schedules, follow us on social media!</em></p>
+      <a href="https://www.instagram.com" target="_blank"><img src="images/instagram-icon.png" alt="instagram icon"></a>
+      <a href="https://www.facebook.com" target="_blank"><img src="images/facebook-icon.png" alt="facebook icon"></a>
+      <a href="https://www.twitter.com" target="_blank"><img src="images/twitter-icon.png" alt="twitter icon"></a>
+    </div>
+    <hr>
+
+
+    <p>Last Update: <span id="lastupdated"></span> </p>
+    <div id="large-footer">
+      <ul>
+        <li class="flexitem">&copy; <span class="currentyear"></span> Bountiful Foods </li>
+        <li class="flexitem"> <strong> Lee Williamson </strong> </li>
+        <li class="flexitem"> WDD 230 Final Project </li>
+      </ul>
+    </div>
+  </footer>
+
+    <script src="scripts/togglemenu.js"></script>
+    <script src="scripts/fruits.js"></script>
+    <script src="scripts/lastmodified.js"></script>
+    <script src="scripts/displaycard.js"></script>
+
+</body>
+</html>

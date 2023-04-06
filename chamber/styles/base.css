@@ -6,6 +6,7 @@
 }
 
 body {
+	display: grid;
 	font-size: 16px;
     font-family: 'Quicksand', Helvetica, sans-serif;
 }
@@ -13,9 +14,10 @@ body {
 /* phone or baseline views **************************/
 header,
 footer {
+	width: 100%;
 	background-color: #aaa;
-	display: flex;
-	flex-flow: column;
+/*	display: flex;
+	flex-flow: column;*/
 	align-items: center;
 	justify-content: center;
 	padding: .75rem;
@@ -27,6 +29,10 @@ main,
 footer {
 	max-width: 100%;
 	margin: 0 auto;
+}
+
+header img {
+	margin: 0 3% 0 0;
 }
 
 h1 {
