@@ -176,6 +176,9 @@ hr {
     width: 50px;
     padding: 10px;
 }
+form {
+    font-family: 'Nanum Gothic', sans-serif;
+}
 form fieldset {
     display: inline;
     margin: 1rem 0;
