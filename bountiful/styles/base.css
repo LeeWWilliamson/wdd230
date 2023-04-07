@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette:wght@400&family=Nanum+Gothic&display=swap');
 
 body {
     background-color: #78c5f5;
 }
 h1, h2 {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Courgette', cursive;
 }
 p, ul {
     font-family: 'Nanum Gothic', sans-serif;
@@ -19,6 +19,7 @@ h2, p {
     gap: 6vw;
     align-items: center;
     color: #ffb31c;
+    text-shadow: 5px 5px 10px black;
     background-color: #78c5f5;
 }
 .header img{
