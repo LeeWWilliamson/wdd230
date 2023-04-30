@@ -19,9 +19,10 @@ body {
       
     main {
       border-radius: 5px 5px 0px 0px;
-      max-width: 767px;
+      max-width: 100%;
       margin: 2em;
-      display: block;
+      grid-template-columns: 1fr;
+      display: grid;
       font-size: 1rem;
       text-align: justify;
     }
