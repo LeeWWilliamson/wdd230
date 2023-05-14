@@ -55,10 +55,6 @@
 		border: 1px solid #bbb;
 	}
 	
-	footer p {
-		flex-direction: row;
-	}
-	
 	footer p span:not(:last-child)::after {
 		content: ' 🧪\00a0';
 	}
