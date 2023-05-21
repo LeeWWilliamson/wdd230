@@ -42,6 +42,12 @@ h2 {
 	color: #536878;
 }
 
+header .date {
+	text-align: center;
+	margin: 0 0 10px 0;
+
+}
+
 nav button {
     margin: .2rem 2vw;
     background: transparent;
@@ -128,6 +134,43 @@ main article ul {
 main picture {
 
 	margin: 1rem;
+}
+
+#hero img {
+	display: content;
+    width: 100%;
+}
+
+.spotlights {
+    padding: 1rem;
+    border: 1px solid #CCC;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+#spot1 {
+    grid-row: 1/2;
+    width: auto;
+    height: auto;
+}
+#spot2 {
+    grid-row: 2/3;
+    width: auto;
+    height: auto;
+}
+/* for small display suppress 3rd spotlight */
+
+.spotlights div:nth-child(3) {
+	display: content;
+}
+  
+#spotlights img {
+	width: 50%;
+	height: auto;
+	border-radius: 100%;
+}
+
+.join {
+	display: none
 }
 
 footer p {

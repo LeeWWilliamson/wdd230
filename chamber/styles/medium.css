@@ -4,41 +4,6 @@
 		font-size: 1.5rem;
 	}
 
-	/* Horizontal Menu Examples */
-	/* Flex *********************/
-  /*	nav ul { display: flex; }
-		  nav ul li { flex: 1 1 auto; } 
- */
-	/* Grid *********************/
- 	nav ul {
-		display: grid;
-/* 		grid-template-columns: repeat(5, 1fr); */
-		grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
-	} 
-
-	nav button {display: none;}
-
-	nav ul#primaryNav {
-		display: flex;
-		margin-left: 2wv;
-		border-left: 1px solid rgba(0,0,0,0.3);
-	}
-	
-	nav ul li a {
-		border: none;
-		border-right: 1px solid rgba(0,0,0,0.3);
-	}
-	
-	nav a {
-		font-size: 1rem;
-	}
-
-	nav a:hover {
-		/* 	background-color: #bbb;
-	color: #36454f; */
-		--d: 75%;
-	}
-	
 	.main-grid {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
@@ -46,13 +11,31 @@
 	article:nth-child(3) {
 		grid-column: span 2;
 	}
-	main picture {
-		display: grid;
-	}
 	main picture img {
 		width: 100%;
 		height: auto;
 		border: 1px solid #bbb;
+	}
+	main #hero {
+		grid-column: span 2;
+	/* 	grid-column: 1/2; */
+        grid-row: 1;
+	}
+	main #news {
+		grid-column: span 2;
+        grid-row: 2;
+	}
+	main .spotlights {
+		grid-column: span 2;
+        grid-row: 3;
+	}	
+	main #join {
+		grid-column: span 2;
+        grid-row: 4;
+	}
+
+	#event, #weather {
+		grid-row: 5/5;
 	}
 	
 	footer p span:not(:last-child)::after {
