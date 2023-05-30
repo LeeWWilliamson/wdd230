@@ -12,6 +12,12 @@ body {
 }
 
 /* phone or baseline views **************************/
+
+#banner {
+	font-size: 1rem;
+	text-align: center;
+}
+
 header,
 footer {
 	width: 100%;
