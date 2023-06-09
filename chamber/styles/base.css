@@ -9,6 +9,8 @@ body {
 	display: grid;
 	font-size: 16px;
     font-family: 'Quicksand', Helvetica, sans-serif;
+	background-color: #aaa;
+
 }
 
 /* phone or baseline views **************************/
@@ -88,19 +90,6 @@ nav ul li a {
 transition: 0.5s;
 }
 
-/* nav ul li a {
-	display: block;
-	color: #fff;
-	text-align: center;
-	padding: 0.75rem;
-	text-decoration: none;
-	font-size: 0.95rem;
-	background: linear-gradient(90deg, transparent, yellow, transparent) bottom /
-		var(--d, 0) 3px no-repeat;
-	transition: 0.5s;
-} */
-
-
 nav ul li.active a {
     background-color: rgba(0,0,0,0.2);
     color: #fff;
@@ -127,19 +116,22 @@ nav ul.open {display: block;}
 .main-grid {
 	display: grid;
 	grid-template-columns: 1fr;
+	width: 100%;
+
 	font-size: 0.8rem;
 }
-main article {
-	margin: 1rem;
+.main-grid article {
+	margin-bottom: 6px;
+	margin-left: 16px;
+	margin-right: 16px;
 	border: 1px solid rgba(0, 0, 0, 0.2);
 	padding: 1rem;
 	background-color: #eee;
 }
-main article ul {
+.main-grid article ul {
 	margin: 1rem 0 0 1rem;
 }
-main picture {
-
+.main-grid picture {
 	margin: 1rem;
 }
 
@@ -154,20 +146,24 @@ main picture {
     display: grid;
     grid-template-columns: 1fr;
 }
+
 #spot1 {
-    grid-row: 1/2;
-    width: auto;
-    height: auto;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	padding: 1rem;
+	height: auto;
 }
 #spot2 {
-    grid-row: 2/3;
-    width: auto;
-    height: auto;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	padding: 1rem;
+	height: auto;
 }
+
+
+
 /* for small display suppress 3rd spotlight */
 
 .spotlights div:nth-child(3) {
-	display: content;
+	display: none;
 }
   
 #spotlights img {
@@ -176,10 +172,13 @@ main picture {
 	border-radius: 100%;
 }
 
-.join {
+#join {
 	display: none
 }
 
+footer {
+	margin-top: 13px;
+}
 footer p {
 	padding: .5rem;
 	display: flex;
