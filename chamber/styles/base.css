@@ -131,6 +131,19 @@ nav ul.open {display: block;}
 .main-grid article ul {
 	margin: 1rem 0 0 1rem;
 }
+
+article h2 {
+	text-align: center;
+}
+
+.spotlights {
+	text-align: center;
+}
+
+.spotlights div {
+	text-align: center;
+}
+
 .main-grid picture {
 	margin: 1rem;
 }
@@ -144,32 +157,36 @@ nav ul.open {display: block;}
     padding: 1rem;
     border: 1px solid #CCC;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: auto;
+	text-align: left;
 }
 
 #spot1 {
 	border: 1px solid rgba(0, 0, 0, 0.2);
 	padding: 1rem;
 	height: auto;
+	grid-area: 2 / 1/ span 1/ span 1;
 }
 #spot2 {
 	border: 1px solid rgba(0, 0, 0, 0.2);
 	padding: 1rem;
 	height: auto;
+	grid-area: 3 / 1/ span 1/ span 1;
+
 }
 
 
 
 /* for small display suppress 3rd spotlight */
 
-.spotlights div:nth-child(3) {
+.spotlights div:nth-child(4) {
 	display: none;
 }
   
-#spotlights img {
+.spotlights img {
 	width: 50%;
 	height: auto;
-	border-radius: 100%;
+	border-radius: 10%;
 }
 
 #join {

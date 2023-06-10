@@ -27,16 +27,28 @@
 	.spotlights {
 		grid-area: 3 / 1 / span 1 / span 5;
 		width: 90%%;
-		display: flex;
+		display: grid;
+		grid-template-columns: auto auto;
+		text-align: left;	
 	}
 
+	.spotlights h2 {
+		grid-area: 1 / 1/ span 1/ span 2;
+	}
 	#spot1 {
-		width: 50%;
+		border: 1px solid rgba(0, 0, 0, 0.2);
+		padding: 1rem;
+		height: auto;
+		grid-area: 2 / 1/ span 1/ span 1;
 	}
 	#spot2 {
-		width: 50%;
-	}
+		border: 1px solid rgba(0, 0, 0, 0.2);
+		padding: 1rem;
+		height: auto;
+		grid-area: 2 / 2/ span 1/ span 1;
 	
+	}
+		
 
 	#join {
 		display: grid;

@@ -39,7 +39,7 @@
 
 
 	.main-grid {
- 		grid-template-columns: auto auto auto auto;
+ 		grid-template-columns: 25% 25% 25% 25%;
 		width: 100%;
  		grid-gap: none;
  		/* background-color: #2196F3; */
@@ -66,31 +66,42 @@
 
 	.main-grid picture {
 		margin: 0 -8px 4px -8px;
-		width: 100%;
-		border: 1px solid #bbb;
+		width: 99.5%;
 	}
 
 
 	.spotlights {
-		display: grid;
 		grid-area: 1 / 4 / span 3 / span 1;
-		
+		padding: 1rem;
+		border: 1px solid #CCC;
+		display: grid;
+		grid-template-columns: auto;
+		align-items: center;
 	}
 	#spot1 {
-		width: 100%;
+		border: 1px solid rgba(0, 0, 0, 0.2);
+		padding: 1rem;
+		height: auto;
+		grid-area: 2 / 1/ span 1/ span 1;
 	}
 	#spot2 {
-		width: 100%;
+		border: 1px solid rgba(0, 0, 0, 0.2);
+		padding: 1rem;
+		height: auto;
+		grid-area: 3 / 1/ span 1/ span 1;
 	}
-
-	.spotlights div:nth-child(3) {
+	
+	.spotlights div:nth-child(4) {
 		display: grid;
 	}
 	#spot3 {
 		border: 1px solid rgba(0, 0, 0, 0.2);
 		padding: 1rem;
 		height: auto;
-		width: 100%;
+		grid-area: 4 / 1/ span 1/ span 1;
+	}
+	#spot3 img {
+		justify-self: center;
 	}
 	
 	#weather {
