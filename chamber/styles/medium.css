@@ -64,5 +64,9 @@
 		content: ' 🧪\00a0';
 	}
 	
+	.gallery img:hover {
+		transform: scale(1.1);
+	}
+	
 }
 
