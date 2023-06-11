@@ -26,10 +26,7 @@
 
 	.spotlights {
 		grid-area: 3 / 1 / span 1 / span 5;
-		width: 90%%;
 		display: grid;
-		grid-template-columns: auto auto;
-		text-align: left;	
 	}
 
 	.spotlights h2 {

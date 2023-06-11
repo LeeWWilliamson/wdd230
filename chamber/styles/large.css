@@ -18,7 +18,6 @@
 
 	nav ul#primaryNav {
 		display: flex;
-		margin-left: 2wv;
 		border-left: 1px solid rgba(0,0,0,0.3);
 	}
 	
@@ -41,7 +40,6 @@
 	.main-grid {
  		grid-template-columns: 25% 25% 25% 25%;
 		width: 100%;
- 		grid-gap: none;
  		/* background-color: #2196F3; */
  		padding: 0px;
  	}
