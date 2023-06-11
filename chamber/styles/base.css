@@ -217,6 +217,9 @@ footer p {
 .pgtitle {
     padding-left: 20px;
 }
+
+/*Discover Page */
+
 .gallery {
     display: flex;
     flex-direction: column;
@@ -243,4 +246,70 @@ footer p {
 	background-color: #aaa;
     padding: 25px;
     border-radius: 15px;
+}
+
+/*Join Page */
+
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    padding: .5rem 2%;
+    max-width: 96%;
+	background-color: #aaa;
+
+}
+form legend {
+    margin: 0 1rem;
+    text-align: center
+}
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    font-size: .8rem;
+}
+
+form label.top input,  form label.top select {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    width: 92%;
+    max-width: 25rem;
+}
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: #555
+}
+label.sbs input {
+    margin: 5px;
+}
+form input.submitBtn {
+    border: none;
+    background-color: green;
+    color: black;
+    font-weight: 600;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: auto;
+    width: 96%;
+    max-width: 25rem;
+}
+form label.top input:required {
+    border: red solid 2px;
+
+}
+form label.top input:required:valid {
+    border: green solid 2px;
+}
+.member-levels p{
+    font-weight: bold;
+    font-style: italic;
+}
+.member-levels ul li{
+    list-style: circle;
+    padding: 3px;
+
 }
