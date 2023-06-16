@@ -71,8 +71,8 @@ section {
   align-items: center;
 }
 section > p {
-  min-height: 60px;
-  max-width: 50%;
+  min-height: 30px;
+  max-width: auto;
 }
 
 img {
