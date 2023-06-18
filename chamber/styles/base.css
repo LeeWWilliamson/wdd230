@@ -248,7 +248,7 @@ footer p {
     border-radius: 15px;
 }
 
-/*Join Page */
+/* Join Page */
 
 form fieldset {
     margin: 2rem 0;
@@ -313,3 +313,66 @@ form label.top input:required:valid {
     padding: 3px;
 
 }
+
+/* Directory Page */
+
+.members section {
+    border: 1px solid black;
+    background-color: white;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    flex-basis: auto;
+  }
+  
+  .members {
+    min-width: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+  }
+  
+  .directoryGrid { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  } 
+  
+  
+  /* Directory Page - List View */
+  
+  .list section {
+      display: flex;
+      align-items: center;
+      flex-direction: row; 
+    min-height: 5rem;
+  }
+  
+  .list section > * {
+      margin: 0 1rem;
+      text-align: left;
+  }
+  
+  .list section img {
+      display: none;
+  }
+  
+  
+  /* Directory Page - Buttons */
+  
+  
+  .btn:hover {
+    color: white;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 5pt;
+  }
+  
+  .btn {
+    padding: 15px 40px;
+    margin: 10px;
+    background-color: rgba(0,0,0,0.2);
+    border: 1px solid black;
+    border-radius: 5pt;
+    box-shadow: 3px 3px 10px gray;
+  }
+  
