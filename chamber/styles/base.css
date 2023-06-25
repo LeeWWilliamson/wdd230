@@ -375,4 +375,12 @@ form label.top input:required:valid {
     border-radius: 5pt;
     box-shadow: 3px 3px 10px gray;
   }
-  
+
+  /* For Weather */
+  figcaption {
+    text-transform: capitalize;
+  }
+  #current-temp {
+    font-size: x-large;
+
+  }
