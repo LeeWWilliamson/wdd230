@@ -185,7 +185,7 @@ form fieldset {
     border: none;
     padding: .5rem 2%;
     max-width: 96%;
-    align-items: left;
+    align-items: start;
 }
 form legend {
     margin: 0 1rem;
