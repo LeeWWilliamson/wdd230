@@ -16,4 +16,3 @@ const formatted = lastMod.toLocaleDateString("en-US", {
 
 document.getElementById("lastupdated").innerHTML = formatted;
 
-

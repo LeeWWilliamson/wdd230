@@ -91,4 +91,3 @@ function outputInfo(fruits){
 
 const z = document.getElementById('submitBtn')
 z.onclick = apiFetch;
-

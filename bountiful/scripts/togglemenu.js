@@ -12,4 +12,3 @@ menu.addEventListener("click", () => {
 
 const x = document.querySelector(".hamburger")
 x.onclick = toggleMenu;
-
